@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+
+}
+
+
+body { background-color: #0b1416;}
+
+.app {
+  height: 100vh;
+}

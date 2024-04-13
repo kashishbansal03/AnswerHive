@@ -1,0 +1,53 @@
+.home-container {
+ display: flex;
+ position: relative;
+ justify-content: flex-start;
+ 
+}
+
+.home-side-bar {
+ width: 20%;
+ margin-top: 60px;
+ position: fixed;
+}
+
+.home-main-content {
+  position: relative;
+width: 55%;
+left: 20%;
+margin-top: 60px;
+
+}
+
+.home-popular {
+ width: 25%;
+ left: 75%;
+ margin-top: 60px;
+ position: fixed;
+
+}
+
+
+
+/* mobile  */
+@media screen and (min-width: 801px) {
+ 
+}
+
+
+@media screen and (max-width: 1140px) {
+
+  .home-side-bar {
+    width: 0%;
+    
+  }
+
+  .home-popular {
+    width: 0%;
+  }
+  .home-main-content {
+    display: flex;
+    width: 100%;
+    left: 0%;
+  }
+}

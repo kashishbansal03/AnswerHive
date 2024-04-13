@@ -1,0 +1,246 @@
+.topic-container {
+    height: 90vh;
+    border-top: 2px solid rgba(128, 128, 128, 0.1);
+    padding: 10px;
+}
+
+.topic-wrapper {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.topic-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.topic-title h2 {
+    margin-bottom: 10px;
+}
+
+.topic-title p {
+    color: #0582ca;
+    font-size: 14px;
+}
+
+.topic-btns {
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.topic-btns div {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 20px;
+    width: 10%;
+    border: 2px solid gray;
+}
+
+.topic-btns button {
+    padding: 5px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+
+.topic-btns div:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+
+.topic-btns button:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.topic-cards {
+    height: 100%;
+}
+
+.topic-view {
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    height: 100%;
+    border-radius: 10px;
+    border-bottom: 1px solid rgba(56, 56, 56, 0.971);
+  }
+  .topic-view:hover {
+    background-color: rgba(128, 128, 128, 0.223);
+    cursor: pointer;
+  }
+  
+  .topic-view-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 8px;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  
+  .topic-view-header-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    width: 50%;
+  }
+  
+  .sub-avatar {
+    height: 20px;
+    width: 30px;
+    padding-bottom: 5px;
+  }
+  
+  .sub-name {
+    color: rgb(151, 151, 151);
+  }
+  .topic-view-date {
+    color: #88919791;
+  }
+  .date-circle {
+    font-size: 3px;
+    margin-left: 4px;
+    margin-right: 4px;
+    color: gray;
+  }
+  
+  .topic-view-header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .topic-view-header-right button {
+    background-color: #006494;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    color: white;
+  }
+  
+  .circle-div {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 35px;
+    border-radius: 50%;
+  }
+  .circle-div:hover {
+    background-color: rgb(80, 80, 80);
+  }
+  .circle {
+    font-size: 5px;
+    color: rgb(255, 255, 255);
+    padding-left: 3px;
+  }
+  
+  .topic-view-header-right button:hover {
+    cursor: pointer;
+    filter: brightness(1.2);
+    background-color: #0582ca;
+  }
+  
+  .topic-view-content {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .topic-view-left {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 15px;
+  }
+  
+  .topic-view-left-text {
+    width: 100%;
+    height: 55%;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+  }
+  
+  .topic-view-left-btns {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .topic-view-left-btns div {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    padding: 6px 8px;
+    border: none;
+    outline: none;
+    background-color: #1b2f33f9;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  #upvote:hover {
+    color: red;
+  }
+  
+  #downvote:hover {
+    color: rgb(97, 58, 187);
+  }
+  
+  .topic-view-left-btns div:hover {
+    filter: brightness(1.2);
+  }
+  
+  .topic-view-btn-icon {
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #fffffff9;
+  }
+  
+  .topic-view-right-img {
+    height: 100%;
+    width: 100%;
+    display: flex;
+  
+    justify-content: center;
+  }
+  
+  .topic-view-right-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
